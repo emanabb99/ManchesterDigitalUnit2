@@ -7,6 +7,9 @@ public class Product {
         this.item = item;
         this.impact = impact;
         this.price = price;
+    }
 
+    public String toString() {
+        return item + " - " + impact + " - " + " £" + price;
     }
 }
