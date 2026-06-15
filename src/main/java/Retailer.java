@@ -12,4 +12,8 @@ public class Retailer {
     public void addProduct(Product product) {
         productList.add(product);
     }
+
+    public List<Product> getProducts() {
+        return productList;
+    }
 }
